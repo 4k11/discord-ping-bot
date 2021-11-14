@@ -37,7 +37,7 @@ const keepAlive = require("./server.js")
                         s4d.client.emit(packet.t, guild, channel, message, member, packet.d.emoji.name);
                     }
                 });
-                s4d.client.login('ODQzMTc1MDkxMjIzMjY1MzAy.YKAB_w.RmsdxDkutnBKkI11FO_c_pif4lQ').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
+                s4d.client.login('----enter token here----').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
 
 
 keepAlive()   
