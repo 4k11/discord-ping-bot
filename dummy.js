@@ -48,5 +48,5 @@ s4d.client.on('message', async (s4dmessage) => {
   } 
 });
 
-                s4d;
+               
             
